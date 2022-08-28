@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - Remya</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- header starts -->
+    <header>
+        <a href="index.html"><img src="images/k.png" alt="logo" class="logo"></a>
+        
+        <!-- navigation menu start-->
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Expertise</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>            
+        </nav>        
+        <!-- navigation menu ends-->
+    </header>
+    <!-- header Ends-->
+
+    <!--About start-->    
+    <div id="about" class="contentbox">
+        <h3 class="headertxt">About Me <hr></h3><br>        
+        <img src="images/profile.jpg" alt="profile photo">
+        <p class="maintext">Hello! I'm <span class="highlight">Remya K</span>, a Web Developer with over 8 years of experience. 
+            Experienced with all stages of the development cycle for dynamic web projects. 
+            Having an in-depth knowledge including advanced <span class="highlight">HTML5, CSS3, JavaScript, jQuery and NodeJS</span>. 
+            I aim to make a difference through my creative solution. <br><br>
+            I started my career as a project trainee in one of the startup companies and worked on 
+            student management web portal and real estate portal. It was a big 
+            stepping stone in career path, to grow from trainee to web developer, and now senior software engineer.
+        </p>
+    </div>
+    <!--About ends-->
+
+    <!--Expertise start-->
+    <div id="skills" class="contentbox" >
+        <h3 class="headertxt">Expertise<hr></h3><br>
+        <p class="maintext">
+        </p>
+        
+        <div id="progressbar">
+            <table>
+                <tr>
+                    <td class="pbartxt">HTML5 </td><td><progress max="100" value="90"></progress>(90%)</td>  
+                </tr>
+                <tr>    
+                    <td class="pbartxt">CSS3 </td><td><progress max="100" value="80"></progress>(80%)</td>      
+                </tr>
+                <tr>
+                    <td class="pbartxt">JavaScript </td><td><progress max="100" value="85"></progress>(85%)</td>  
+                </tr>
+                <tr>
+                    <td class="pbartxt">jQuery </td><td><progress max="100" value="70"></progress>(70%)</td>      
+                </tr>
+                <tr>
+                    <td class="pbartxt">NodeJS </td><td><progress max="100" value="75"></progress>(75%)</td> 
+                </tr>
+                <tr>     
+                    <td class="pbartxt">ASP.NET </td><td><progress max="100" value="85"></progress>(80%)</td>      
+                </tr>
+                <tr>     
+                    <td class="pbartxt">C# </td><td><progress max="100" value="75"></progress>(75%)</td>      
+                </tr>
+                <tr>
+                    <td class="pbartxt">SQL Server </td><td><progress max="100" value="80"></progress>(80%)</td>
+                </tr>
+                <tr>      
+                    <td class="pbartxt">MySQL </td><td><progress max="100" value="80"></progress>(80%)</td>      
+                </tr>
+            </table>             
+        </div>        
+    </div>
+    <!--Expertise ends-->
+    
+    <!--Experience starts-->
+    <div id="experience" class="contentbox" >
+        <h3 class="headertxt">Experience<hr style="width:15px;"></h3><br>
+        <div class="dvexp">
+            <h4>SENIOR SOFTWARE DEVELOPER</h4>
+            <p class="highlightsmallbold"><i>oneSystem Inc.</i> | 2014 - 2021</p>
+            <ul>
+                <li>Implementing middleware to communicate with other
+                    vendor applications.         
+                </li>
+                <li>Create automated process solutions to work as service.</li>
+            </ul>
+            <br>
+        </div>
+
+        <div class="dvexp">
+            <h4>WEB DEVELOPER</h4>
+            <p class="highlightsmallbold"><i>VWC Global</i> | 2009 - 2014</p>
+            <ul>
+                <li>Worked as a full-stack developer.</li>
+                <li>End-to-end management of projects.</li>
+            </ul>
+            <br>
+        </div>
+
+        <div class="dvexp">
+            <h4>SOFTWARE ENGINEER</h4>
+            <p class="highlightsmallbold"><i>iRely Soft Services (P) Ltd.</i> | 2008 - 2009</p>
+            <ul>
+                <li>Interface design and development of ERP solutions.</li>
+                <li>Hands on all phases of software development life cycle</li>
+            </ul>            
+        </div>
+        
+    </div>    
+    <!--Experience ends-->
+
+    <!--Education starts-->
+    <div id="education" class="contentbox" >
+        <h3 class="headertxt">Education<hr></h3><br>
+        
+        <div class="dvedu">
+            <h4>DOEACC B Level</h4>
+            <p class="highlightsmallbold"><i>DOEACC Center, Calicut, Kerala</i> | 2005 - 2008</p>
+            <p>I have completed my post graduation, which equivalent to Masters in Computer Application from 
+                an institute that is recognized by Ministry of Human Resource Development, Government of India.</p>
+        </div>
+
+        <div class="dveduright" >
+            <h4>Diploma in Computer Engineering</h4>
+            <p class="highlightsmallbold"><i>MTI, Thrissur</i> | 2002 - 2005</p>
+            <p>I have completed my post graduation, which equivalent to Masters in Computer Application from 
+                an institute that is recognized by Ministry of Human Resource Development, Government of India.</p>
+        </div>
+        
+    </div>
+    <!--Education ends-->
+
+    <!--Contact starts-->
+    <div id="contact" class="contentbox" >
+        <h3 class="headertxt">Contact<hr></h3><br>
+        <form action="thankyou.html" id="frmcontact">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="your name here" required><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="your email here" required><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="your phone number here [xxxx-xxxxxx]" pattern="[0-9]{4}-[0-9]{6}" required><br>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="5"></textarea>
+            <input type="submit" value="Send Message">
+        </form>       
+        
+    </div>
+    <!--Contact ends-->
+
+    <!--social media connections starts-->
+    <div id="socialmedia">
+        <div style="text-align: center;">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+    </div>
+    <!--social media connections ends-->
+
+    <!--footer start-->
+    <footer>
+        <p>Copyright © 2022 remyak, All rights reserved.</p>
+        <button onclick="topFunction()" id="gotopBtn" title="Go to top">Top</button>
+    </footer>
+    <!--footer ends-->
+    
+    <!--inline script starts-->
+    <script>
+        var mybutton = document.getElementById("gotopBtn");
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!--inline script starts-->
+
+</body>
+</html>
